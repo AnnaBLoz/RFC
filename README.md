@@ -1,4 +1,3 @@
-```md
 # Capa
 
 **Título do Projeto:** Freela Match - Plataforma de Conexão entre Freelancers e Empresas  

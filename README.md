@@ -55,6 +55,7 @@ O desenvolvimento do Freela Match parte da identificação de lacunas recorrente
 - Dificuldade na identificação de profissionais qualificados: muitas empresas enfrentam desafios na hora de encontrar freelancers que atendam aos critérios técnicos e comportamentais exigidos por um projeto específico.
 - Falta de transparência nos processos de contratação: a ausência de informações claras sobre histórico, reputação e qualidade dos serviços prestados dificulta a tomada de decisão e aumenta os riscos para ambas as partes.
 - Inexistência de um sistema estruturado de feedback: a falta de avaliações consistentes compromete a construção de confiança entre usuários e prejudica a seleção de candidatos adequados para futuras oportunidades.
+
 Ao atacar diretamente esses pontos, a plataforma visa proporcionar um ambiente digital mais confiável e eficiente, contribuindo para a profissionalização do mercado freelance.
 
 ## 2.3 Limitações
@@ -63,6 +64,7 @@ Embora o projeto proponha uma solução completa em termos de conexão e gestão
 - Não haverá intermediação financeira direta pela plataforma: pagamentos e transações entre as partes deverão ocorrer fora do ambiente da aplicação, sendo de responsabilidade dos próprios usuários.
 - Ausência de mecanismos formais de resolução de disputas: o sistema não oferecerá recursos jurídicos ou administrativos para mediar conflitos entre freelancers e contratantes.
 - Cadastro restrito a empresas e profissionais autônomos: nesta versão inicial, o sistema não contemplará usuários com perfis de cliente pessoa física, restringindo-se a interações B2B (empresa-empresa) e B2F (empresa-freelancer).
+
 Tais restrições foram adotadas com o intuito de focar nos principais objetivos do projeto e garantir sua implementação dentro dos prazos e recursos disponíveis.
 
 ---
@@ -133,6 +135,7 @@ A segurança da informação é um aspecto central na arquitetura do Freela Matc
 - Armazenamento seguro de senhas, com uso de técnicas de hashing e salting.
 - Controle de acesso baseado em autenticação via JWT e gerenciamento de permissões com Identity.
 - Validação de entradas para prevenir ataques de injeção de SQL e cross-site scripting (XSS).
+
 Essas medidas visam garantir a integridade, a confidencialidade e a disponibilidade das informações dentro do sistema.
 
 ---
@@ -140,13 +143,18 @@ Essas medidas visam garantir a integridade, a confidencialidade e a disponibilid
 # 4. Próximos Passos
 
 Com o levantamento de requisitos, definição da arquitetura e especificação das tecnologias a serem utilizadas, os próximos passos do projeto Freela Match seguem uma abordagem incremental, alinhada a boas práticas de engenharia de software. O processo de desenvolvimento será dividido em etapas sequenciais e iterativas, conforme descrito a seguir:
+
 1. Implementação Inicial da Arquitetura
+
 Nesta fase será estruturada a base do sistema, incluindo a configuração dos ambientes de desenvolvimento, integração das camadas de front-end, back-end e banco de dados, e definição de rotas, entidades e modelos iniciais. Serão implementadas também as primeiras interfaces e funcionalidades essenciais de autenticação.
 2. Desenvolvimento dos Módulos Principais
+
 Após a fundação da arquitetura, será dado início ao desenvolvimento dos principais módulos funcionais, como cadastro e edição de perfis, criação e gerenciamento de propostas, sistema de busca com filtros, painel administrativo e mecanismo de avaliações mútuas entre freelancers e empresas.
 3. Testes Unitários e de Integração
+
 Serão aplicadas práticas de Test-Driven Development (TDD) e integração contínua, com foco na cobertura de testes unitários e testes de integração entre os componentes críticos do sistema. Essa etapa visa garantir a qualidade, estabilidade e confiabilidade do software em execução.
 4. Implantação e Monitoramento
+
 Após a validação das funcionalidades por meio de testes, será realizada a implantação do sistema em ambiente de produção. Ferramentas de monitoramento e logging serão configuradas para acompanhar o desempenho da aplicação, detectar falhas e apoiar a manutenção evolutiva.
 Esses passos serão gerenciados por meio de ferramentas de versionamento e automação, com o auxílio do Azure DevOps, permitindo um controle eficiente sobre o progresso do projeto e seus ciclos de entrega.
 

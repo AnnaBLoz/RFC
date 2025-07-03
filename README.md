@@ -155,7 +155,8 @@ Essas delimitações visam assegurar a implementação eficaz dentro dos prazos 
 5. **RNF05** - O sistema de match automático entre perfis e vagas baseado em habilidades.
 
 #### Representação dos Requisitos
-*(A representação detalhada dos requisitos será incluída conforme o desenvolvimento do projeto.)*
+![Propostas](imagens/propostas.png)
+![Avaliação e Notificações](imagens/AvaliacaoNot.png)
 
 ---
 

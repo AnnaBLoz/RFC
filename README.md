@@ -261,4 +261,4 @@ O fluxograma a seguir foi incluído para ilustrar de forma visual e simplificada
 ---
 
 ## AVALIAÇÕES DE PROFESSORES
-**Considerações Professor/a:** *(Aguardando preenchimento)*
+**Considerações Professor/a:** 
